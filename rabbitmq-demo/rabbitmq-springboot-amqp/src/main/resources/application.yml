@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: test
+  rabbitmq:
+    virtual-host:
+    listener:
+      direct:
+        missing-queues-fatal:
+logging:
+  level: error
